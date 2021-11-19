@@ -80,10 +80,10 @@ const action: ActionDefinition<Settings, Payload> = {
     },
     type: {
       label: 'Type',
-      description:
-        'Type of the Activity. This is in correlation with the key_string parameter of ActivityTypes. When value for type is not set, it will be given a default value `Call`',
+      description: 'Type of the Activity. When value for type is not set, it will be given a default value `Call`',
       type: 'string',
-      required: false
+      required: false,
+      dynamic: true
     },
     description: {
       label: 'Description',

@@ -34,7 +34,7 @@ export interface Payload {
    */
   subject?: string
   /**
-   * Type of the Activity. This is in correlation with the key_string parameter of ActivityTypes. When value for type is not set, it will be given a default value `Call`
+   * Type of the Activity. When value for type is not set, it will be given a default value `Call`
    */
   type?: string
   /**
